@@ -1,0 +1,39 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 56px;
+
+  .winnerWrap {
+    display: flex;
+    gap: 24px;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .winner {
+    display: flex;
+    gap: 4px;
+    padding: 8px;
+    border: 1px solid #f9f9f9;
+    border-radius: 8px;
+
+    p {
+      margin: 0;
+    }
+  }
+
+  .smilesWrap {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+}
+
+.active {
+  background-color: red;
+}
